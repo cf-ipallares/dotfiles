@@ -4,3 +4,4 @@ alias version='printf "parameters: \n    assets_version: `shuf -i 0-1000000 -n 1
 alias scripts='cd /vagrant/portal/src/CF/Bundle/WebsiteBundle/Resources/frontend;npm run build:js;version'
 alias styles='cd /vagrant/portal/src/CF/Bundle/WebsiteBundle/Resources/frontend;npm run build:css;version'
 alias frontend='scripts;styles'
+alias deploy='cd /vagrant; sh deployPortal.sh'
