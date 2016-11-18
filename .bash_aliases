@@ -2,4 +2,4 @@ alias edebug='sudo php5enmod xdebug;sudo service php5-fpm restart;sudo service n
 alias ddebug='sudo php5dismod xdebug;sudo service php5-fpm restart;sudo service nginx restart'
 alias frontend='cd /vagrant/portal/src/CF/Bundle/WebsiteBundle/Resources/frontend/'
 alias scripts='cd /vagrant/portal/src/CF/Bundle/WebsiteBundle/Resources/frontend;npm run build:js'
-alias styles='cd /vagrant/portal/src/CF/Bundle/WebsiteBundle/Resources/frontend;npm run build:js'
+alias styles='cd /vagrant/portal/src/CF/Bundle/WebsiteBundle/Resources/frontend;npm run build:css'
