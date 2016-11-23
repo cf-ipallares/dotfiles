@@ -5,3 +5,4 @@ alias scripts='cd /vagrant/portal/src/CF/Bundle/WebsiteBundle/Resources/frontend
 alias styles='cd /vagrant/portal/src/CF/Bundle/WebsiteBundle/Resources/frontend;npm run build:css;version'
 alias frontend='scripts;styles'
 alias deploy='cd /vagrant; sh deployPortal.sh'
+alias routes='cd /vagrant/portal;php bin/console debug:router'
