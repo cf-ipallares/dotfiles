@@ -6,3 +6,4 @@ alias styles='cd /vagrant/portal/src/CF/Bundle/WebsiteBundle/Resources/frontend;
 alias frontend='scripts;styles'
 alias deploy='cd /vagrant; sh deployPortal.sh'
 alias routes='cd /vagrant/portal;php bin/console debug:router'
+alias generate='cd /vagrant/portal;php bin/console doctrine:migrations:generate'
