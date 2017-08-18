@@ -13,4 +13,5 @@ alias fixmembig='sudo /bin/dd if=/dev/zero of=/var/swap.1 bs=1G count=4;sudo /sb
 alias dockup='boot2docker init;boot2docker up;eval "$(boot2docker shellinit)"'
 alias ccms='fixmembig;ddebug;cd /vagrant/portal;composer update cf-portal-bundles/cmsBundle;edebug' 
 alias cedma='fixmembig;ddebug;cd /vagrant/portal;composer update cf-portal-bundles/edmaBundle;edebug' 
+alias cseo='fixmembig;ddebug;cd /vagrant/portal;composer update cf-portal-bundles/seoBundle;edebug'
 alias mylog='tail -f /var/tmp/my-log.log'
