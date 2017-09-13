@@ -1,2 +1,2 @@
 alias cclean='nc localhost 11211<<<"flush_all"'
-alias frontend='cd /vagrant/frontend;npm i;npm run build:deploy;'
+alias frontend='cd /vagrant/frontend;npm i;npm run build:deploy;cd -; cd portal;printf "parameters: \n    assets_version: `shuf -i 0-1000000 -n 1` \n    deploy_timestamp: 0" > app/config/version.yml'
