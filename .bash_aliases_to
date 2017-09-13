@@ -1,2 +1,2 @@
 alias cclean='nc localhost 11211<<<"flush_all"'
-alias ttt='ls'
+alias frontend='cd /vagrant/frontend;npm i;npm run build:deploy;'
