@@ -1,0 +1,1 @@
+alias cclean='nc localhost 11211<<<"flush_all"'
