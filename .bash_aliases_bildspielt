@@ -1,1 +1,2 @@
 alias initelastic='cd /vagrant; sh initElastic.sh bildspielt DOIT'
+alias cclean='redis-cli flushall'
