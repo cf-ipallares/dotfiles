@@ -1,2 +1,2 @@
 alias initelastic='cd /vagrant; sh initElastic.sh bildspielt DOIT'
-alias cclean='redis-cli flushall'
+alias cclean='redis-cli flushall; cd /vagrant/portal; php bin/console cache:clear;'
