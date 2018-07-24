@@ -1,6 +1,6 @@
 alias cclean='echo 'flush_all' | netcat localhost 11211'
 alias frontend='cd /vagrant/frontend;npm i;npm run build:deploy;cd -; cd portal;printf "parameters: \n    assets_version: `shuf -i 0-1000000 -n 1` \n    deploy_timestamp: 0" > app/config/version.yml'
 alias edma.log='sudo tail -f /var/log/nginx/edma.turnon.local_error.log'
-alias cms.log='vtail -f /var/log/nginx/cms.turnon.local_error.log'
+alias cms.log='sudo tail -f /var/log/nginx/cms.turnon.local_error.log'
 alias portal.log='sudo tail -f /var/log/nginx/portal.turnon.local_error.log'
 alias error.log='sudo tail -f /var/log/nginx/error.log'
