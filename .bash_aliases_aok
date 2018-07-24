@@ -1,3 +1,4 @@
-alias edmalog="tail -f /var/log/nginx/edma.friends.dev_error.log"
-alias portallog="tail -f /var/log/nginx/portal.friends.dev_error.log"
-alias cmslog="tail -f /var/log/nginx/error.log"
+alias edma.log="sudo tail -f /var/log/nginx/edma.friends.dev_error.log"
+alias portal.log="sudo tail -f /var/log/nginx/portal.friends.dev_error.log"
+alias cms.log="sudo tail -f /var/log/nginx/error.log"
+alias error.log="sudo tail -f /var/log/nginx/error.log"
