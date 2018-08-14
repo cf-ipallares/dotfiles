@@ -1,0 +1,5 @@
+alias edma.log='tail -f /var/log/nginx/edma.ottotestcenter.dev_error.log'
+alias cms.log='tail -f /var/log/nginx/cms.ottotestcenter.dev_error.log'
+alias portal.log='tail -f /var/log/nginx/portal.ottotestcenter.dev_error.log'
+alias error.log='tail -f /var/log/nginx/error.log'
+alias initelastic='cd /vagrant;sh initElastic.sh otto DOIT'
