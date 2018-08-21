@@ -17,4 +17,4 @@ alias cedma='fixmembig;ddebug;cd /vagrant/portal;composer update cf-portal-bundl
 alias cinteraction='fixmembigger;ddebug;cd /vagrant/portal;composer update cf-portal-bundles/interactionBundle;edebug' 
 alias cseo='fixmembig;ddebug;cd /vagrant/portal;composer update cf-portal-bundles/seoBundle;edebug'
 alias mylog='tail -f /var/tmp/my-log.log'
-alias reindex='initelastic;php /vagrant/edma/public/index.php reindex; php /vagrant/cms/wp-content/plugins/cf_elasticsearch.php 2'
+alias reindex='php /vagrant/cms/wp-content/plugins/cf_elasticsearch.php 2'
