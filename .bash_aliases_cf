@@ -1,0 +1,4 @@
+alias edma.log="sudo tail -f /var/log/nginx/edma.contentfleet.dev_error.log"
+alias portal.log="sudo tail -f /var/log/nginx/portal.contentfleet.dev_error.log"
+alias cms.log="sudo tail -f /var/log/nginx/cms.contentfleet.dev_error.log"
+alias error.log="sudo tail -f /var/log/nginx/error.log"
