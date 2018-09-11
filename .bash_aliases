@@ -18,3 +18,4 @@ alias cinteraction='fixmembigger;ddebug;cd /vagrant/portal;composer update cf-po
 alias cseo='fixmembig;ddebug;cd /vagrant/portal;composer update cf-portal-bundles/seoBundle;edebug'
 alias mylog='tail -f /var/tmp/my-log.log'
 alias reindex='php /vagrant/cms/wp-content/plugins/cf_elasticsearch.php 2'
+alias ccmsplugin='fixmembigger;ddebug;cd /vagrant;composer update cf-cms-plugins/cmsPlugins;edebug' 
